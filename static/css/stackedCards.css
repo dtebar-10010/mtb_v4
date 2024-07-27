@@ -1,0 +1,118 @@
+.stacked-cards {
+   position       : absolute;
+   top            : 51.3% !important;
+   left           : 50%;
+   transform      : translate(-50%, -50%);
+   padding-top    : 0;
+   padding-bottom : 0;
+   margin-top     : 0;
+   margin-bottom  : 0;
+   min-height     : 80vh; /* Set a minimum height (adjust value as needed) */
+   min-width      : 90vw; /* Set a minimum width (adjust value as needed) */
+   box-sizing     : border-box;
+   z-index        : 1;
+}
+
+.stacked-cards li, .stacked-cards ul, .card-body {
+   box-sizing : border-box;
+}
+
+.stacked-cards h2 {
+   text-align    : center;
+   margin-bottom : 0;
+}
+
+.stacked-cards.stacked-cards-slide > .row > .col-md-12 > ul {
+   padding     : 0;
+   margin      : 0;
+   margin-left : -1.8%
+}
+
+.stacked-cards ul {
+   display        : flex;
+   flex-direction : column;
+   align-items    : center;
+   width          : 100%;
+   height         : auto;
+}
+
+/* Individual Slide Styles */
+.stacked-cards li {
+   display         : flex;
+   align-items     : center;
+   justify-content : center;
+   margin-top      : 0.5rem;
+   cursor          : pointer;
+   border-radius   : 0.6rem;
+   box-shadow      : 0 0.3rem 0.6rem 0px #333;
+   list-style      : none;
+   width           : 35% !important;
+   max-width       : 512px;
+   transition      : transform 0.5s ease, z-index 0.5s ease;
+   padding         : 1.2rem;
+   z-index         : 1;
+   /* Re-add the absolute positioning and transform properties */
+   position        : absolute;
+   left            : 50%;
+   transform       : translateX(-50%);
+}
+
+.stacked-cards li video {
+   display       : block;
+   width         : auto; /* Maintain aspect ratio */
+   height        : auto;
+   max-width     : 100%; /* Ensure video fits within the slide */
+   max-height    : 100%;
+   border-radius : 0.5rem;
+   max-height    : 22rem; /* Reduced by 50% */
+}
+
+.stacked-cards li.active {
+   cursor     : default;
+   z-index    : 10;
+   transform  : scale(1.0);
+   box-shadow : 0 0.5rem 1.2rem 0px #333;
+}
+
+.stacked-cards li.active:after {
+   display : none;
+}
+
+.card-body {
+   padding : 1rem; /* Standardized padding */
+}
+
+.stacked-cards-slide {
+   margin-top    : 2.11rem;
+   margin-bottom : 0;
+}
+
+video[poster] {
+   object-fit : cover;
+}
+
+.stacked-cards li, .stacked-cards ul, .card-body {
+   box-sizing : border-box;
+}
+
+.video-container {
+   position : relative;
+   display  : inline-block;
+}
+
+.video-container video {
+   display  : block;
+   z-index  : 1;
+   position : relative;
+}
+
+.overlay {
+   position         : absolute;
+   top              : 10px;
+   left             : 10px;
+   color            : white;
+   background-color : rgba(0, 0, 0, 0.5);
+   padding          : 5px;
+   border-radius    : 5px;
+   z-index          : 2;
+}

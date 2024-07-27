@@ -1,0 +1,129 @@
+.btn-primary.phase-1, .card-header.phase-1 {
+   background-color : black !important; /* Phase 1 color */
+   border-color     : black !important; /* Phase 1 border color */
+   color            : white !important;
+}
+
+.btn-primary.phase-2, .card-header.phase-2 {
+   background-color : navy !important; /* Phase 2 color */
+   border-color     : navy !important; /* Phase 2 border color */
+   color            : white !important;
+}
+
+.btn-primary.phase-3, .card-header.phase-3 {
+   background-color : purple !important; /* Phase 3 color */
+   border-color     : purple !important; /* Phase 3 border color */
+   color            : white !important;
+}
+
+.btn-primary.phase-4, .card-header.phase-4 {
+   background-color : gray !important; /* Phase 4 color */
+   border-color     : gray !important; /* Phase 4 border color */
+   color            : white !important;
+}
+
+.btn-primary.phase-5, .card-header.phase-5 {
+   background-color : white !important; /* Phase 5 color */
+   border-color     : white !important; /* Phase 5 border color */
+   color            : black !important;
+}
+
+/* Phase Selection Container */
+#phase-selection-container {
+   display        : flex;
+   flex-direction : column;
+   position       : fixed;
+   top            : 17%;
+   left          : 90.4% !important;
+   z-index        : 1;
+   /*transform      : translateY(-50%);*/
+   width          : auto;
+   opacity        : 1;
+   margin-right   : 11px !important;
+}
+
+/* Button Group Styles */
+#phase-selection-container .btn-group {
+   display         : flex;
+   flex-direction  : column;
+   gap             : 0px;
+   justify-content : flex-end;
+   width           : 1.71cm;
+   height          : 0.54cm;
+   align-items     : stretch; /* Ensure buttons stretch to full height */
+   box-sizing      : border-box;
+}
+
+/* Button Styles */
+#phase-selection-container .btn {
+   /*border-radius: 0.5cm;*/
+   color         : white;
+   border-radius : 0;
+   box-sizing    : border-box; /* Include padding and border in element's total width and height */
+| padding: 0.27 em 0.54 em;
+}
+
+/* Initial Hiding and Reveal (Always Visible) */
+#phase-selection-container.hide-initially {
+   opacity    : 0;
+   transition : opacity 0.5s ease;
+}
+
+/* Style for each button */
+#phase-selection-container .btn {
+   border-radius : 0; /* Remove all rounded corners */
+}
+
+/* Active Button Style */
+#phase-selection-container .btn-group .btn.btn-primary.active {
+   font-weight : bold !important;
+   color       : pink !important;
+}
+
+/* Ensure all buttons have a standard width first */
+#phase-selection-container .btn-group .btn {
+   width : calc(100% - 0px); /* Adjust this to the initial width if necessary */
+}
+
+#phase-selection-container .btn-group .btn:first-child {
+   border-top-left-radius  : 11px;
+   border-top-right-radius : 11px;
+   margin-left             : -1px;
+}
+
+#phase-selection-container .btn-group .btn:nth-child(5) {
+   border-bottom-left-radius  : 11px;
+   border-bottom-right-radius : 11px;
+}
+
+#phase-selection-container .btn {
+   /* ... (Your other button styles) ... */
+   font-size : 11px !important; /* Use !important to override Bootstrap */
+}
+
+.btn-group a { /* Or .btn-group .btn if using <button> tags */
+   letter-spacing : 0.09em; /* Adjust the value (in pixels) as needed */
+}
+
+/* Firefox-Specific Overrides */
+@-moz-document url-prefix() {
+   #phase-selection-container .btn-group .btn {
+      font-size    : 7px;
+      width        : calc(100% + 27px); /* Slightly reduce width to account for potential extra margin */
+      padding      : 0.25em 0.5em; /* Adjust padding as needed */
+      top          : 1% !important; /* Reset margin-left */
+      margin-right : 19% !important;
+   }
+
+   #phase-selection-container .btn-group .btn:first-child {
+      margin-left : 0;
+   }
+}
+
+/* Adjust width for buttons 2 through 5 */
+/*#phase-selection-container .btn-group .btn:nth-child(2),*/
+/*#phase-selection-container .btn-group .btn:nth-child(3),*/
+/*#phase-selection-container .btn-group .btn:nth-child(4),*/
+/*#phase-selection-container .btn-group .btn:nth-child(5) {*/
+/*    width: calc(100% - 3px); !* Subtract 3px from the initial width *!*/
+/*}*/

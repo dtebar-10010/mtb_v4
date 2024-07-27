@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="52c2873e-f011-482a-9863-950e10eeb3c7" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dtebar-10010&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dtebar-10010/AubreyPortfolioV2.git&quot;,
+    &quot;accountId&quot;: &quot;7c5267df-d2be-4f13-be29-b9d1169bfc33&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2gbBuyGPDt8C945Q8YGMMx5baws" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="openDirectoriesWithSingleClick" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Python.append_10.executor": "Run",
+    "Python.append_phase.executor": "Run",
+    "Python.dup.executor": "Run",
+    "Python.dup_phase_3_to_4.executor": "Run",
+    "Python.scratch.executor": "Run",
+    "Python.t.executor": "Run",
+    "Python.update_media_paths.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "django.template.preview.state": "SHOW_EDITOR",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "D:/current/code/mtb_v4_project",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.editor"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\current\code\mtb_v4_project\templates" />
+      <recent name="D:\current\code\mtb_v4_project\templates\img" />
+      <recent name="D:\current\code\mtb_v4_project\templates\css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\current\code\mtb_v4_project\utils" />
+      <recent name="D:\current\code\mtb_v4_project\mtb_v4_app\templatetags" />
+      <recent name="D:\current\code\mtb_v4_project\static\js\t" />
+      <recent name="D:\current\code\mtb_v4_project\static\css\t" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.scratch">
+    <configuration name="append_phase" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mtb_v4_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\current\code\mtb_v4_project\utils\append_phase.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dup_phase_3_to_4" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mtb_v4_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\current\code\mtb_v4_project\utils\dup_phase_3_to_4.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="scratch" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mtb_v4_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$APPLICATION_CONFIG_DIR$/scratches" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$APPLICATION_CONFIG_DIR$/scratches/scratch.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="t" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mtb_v4_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\current\code\mtb_v4_project\utils\t.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="update_media_paths" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="mtb_v4_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\current\code\mtb_v4_project\utils\update_media_paths.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="mtb_v4_project" type="Python.DjangoServer" factoryName="Django server">
+      <module name="mtb_v4_project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.scratch" />
+        <item itemvalue="Python.t" />
+        <item itemvalue="Python.append_phase" />
+        <item itemvalue="Python.dup_phase_3_to_4" />
+        <item itemvalue="Python.update_media_paths" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="52c2873e-f011-482a-9863-950e10eeb3c7" name="Changes" comment="" />
+      <created>1715956639872</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715956639872</updated>
+      <workItem from="1715956645248" duration="5247000" />
+      <workItem from="1716015319291" duration="4318000" />
+      <workItem from="1716056750133" duration="1910000" />
+      <workItem from="1716111026067" duration="15286000" />
+      <workItem from="1716205810686" duration="1232000" />
+      <workItem from="1716266975715" duration="726000" />
+      <workItem from="1716268491621" duration="3264000" />
+      <workItem from="1716298648180" duration="473000" />
+      <workItem from="1716299566091" duration="650000" />
+      <workItem from="1717031731621" duration="3607000" />
+      <workItem from="1717039014868" duration="1458000" />
+      <workItem from="1717084752574" duration="190000" />
+      <workItem from="1717084964311" duration="1760000" />
+      <workItem from="1717087212179" duration="825000" />
+      <workItem from="1717088478817" duration="8058000" />
+      <workItem from="1717174406150" duration="7094000" />
+      <workItem from="1717196292844" duration="5327000" />
+      <workItem from="1717208054894" duration="1841000" />
+      <workItem from="1717268060592" duration="7892000" />
+      <workItem from="1717534801851" duration="17709000" />
+      <workItem from="1719819968164" duration="1464000" />
+      <workItem from="1719877873273" duration="1523000" />
+      <workItem from="1719892855550" duration="3020000" />
+      <workItem from="1719927252693" duration="9644000" />
+      <workItem from="1720016296526" duration="3204000" />
+      <workItem from="1720024288394" duration="1847000" />
+      <workItem from="1720077835585" duration="6398000" />
+      <workItem from="1720092087057" duration="12757000" />
+      <workItem from="1720143268339" duration="3914000" />
+      <workItem from="1720211869243" duration="257000" />
+      <workItem from="1720235570665" duration="8429000" />
+      <workItem from="1720274431580" duration="14341000" />
+      <workItem from="1720311182650" duration="111000" />
+      <workItem from="1720311560349" duration="2823000" />
+      <workItem from="1720330660744" duration="5249000" />
+      <workItem from="1720387991295" duration="780000" />
+      <workItem from="1720418441171" duration="3618000" />
+      <workItem from="1720426497922" duration="6533000" />
+      <workItem from="1720439869578" duration="1969000" />
+      <workItem from="1720482449477" duration="799000" />
+      <workItem from="1720565903844" duration="2655000" />
+      <workItem from="1720625301401" duration="8664000" />
+      <workItem from="1720662956945" duration="6731000" />
+      <workItem from="1720713912036" duration="4102000" />
+      <workItem from="1720756056303" duration="2729000" />
+      <workItem from="1720762145000" duration="10248000" />
+      <workItem from="1720827376924" duration="2996000" />
+      <workItem from="1720837765765" duration="11728000" />
+      <workItem from="1720897820589" duration="898000" />
+      <workItem from="1720974298788" duration="2409000" />
+      <workItem from="1720995774096" duration="1042000" />
+      <workItem from="1721011602609" duration="9610000" />
+      <workItem from="1721054735077" duration="15581000" />
+      <workItem from="1721129004020" duration="6287000" />
+      <workItem from="1721141193362" duration="4049000" />
+      <workItem from="1721211034192" duration="15437000" />
+      <workItem from="1721233884894" duration="10408000" />
+      <workItem from="1721252414895" duration="82000" />
+      <workItem from="1721252568299" duration="1000000" />
+      <workItem from="1721253915564" duration="19918000" />
+      <workItem from="1721357175856" duration="4258000" />
+      <workItem from="1721384972853" duration="18960000" />
+      <workItem from="1721413343606" duration="371000" />
+      <workItem from="1721421524179" duration="38381000" />
+      <workItem from="1721659470459" duration="910000" />
+      <workItem from="1721660913647" duration="7527000" />
+      <workItem from="1721672794654" duration="5803000" />
+      <workItem from="1721735753073" duration="3811000" />
+      <workItem from="1721773693266" duration="2472000" />
+      <workItem from="1721848652369" duration="6161000" />
+      <workItem from="1722001480655" duration="4546000" />
+      <workItem from="1722030375413" duration="2956000" />
+      <workItem from="1722090612390" duration="1148000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mtb_v4_project$dup.coverage" NAME="dup Coverage Results" MODIFIED="1721664169068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mtb_v4_project$dup_phase_3_to_4.coverage" NAME="dup_phase_3_to_4 Coverage Results" MODIFIED="1721693391443" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mtb_v4_project$t.coverage" NAME="t Coverage Results" MODIFIED="1721694754480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mtb_v4_project$update_media_paths.coverage" NAME="update_media_paths Coverage Results" MODIFIED="1721674424298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mtb_v4_project$append_10.coverage" NAME="append_10 Coverage Results" MODIFIED="1721673564602" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/mtb_v4_project$scratch.coverage" NAME="scratch Coverage Results" MODIFIED="1722009892139" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$APPLICATION_CONFIG_DIR$/scratches" />
+    <SUITE FILE_PATH="coverage/mtb_v4_project$append_phase.coverage" NAME="append_phase Coverage Results" MODIFIED="1721694224509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>

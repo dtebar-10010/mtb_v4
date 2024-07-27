@@ -1,0 +1,239 @@
+/*Landscape*/
+
+/* Media Queries for common landscape phone widths */
+@media (max-width : 1024px) and (orientation : landscape) {
+   /* iPad Pro 12.9" */
+   .text-container {
+      width      : 88%;
+      max-height : 53px; /* Set max-height here for all screen sizes */
+   }
+}
+
+@media (max-width : 915px) and (orientation : landscape) {
+   /* iPad Pro 12.9" */
+   .text-container {
+      width         : 82% !important;
+      max-height    : 71px !important;
+      margin-top    : 7px !important;
+      margin-bottom : -3px !important;
+   }
+}
+
+@media (max-width : 844px) and (orientation : landscape) {
+   /* iPad Air/Mini */
+   .text-container {
+      width      : 81%;
+      max-height : 72px; /* Set max-height here for all screen sizes */
+   }
+
+   /* Phase Selection Container */
+   #phase-selection-container {
+      display        : flex;
+      flex-direction : column;
+      position       : fixed;
+      top            : 20%;
+      left           : 88% !important;
+      z-index        : 1;
+      /*transform      : translateY(-50%);*/
+      width          : auto;
+      opacity        : 1;
+      margin-right   : 11px !important;
+   }
+}
+
+@media (max-width : 820px) and (orientation : landscape) {
+   /* iPhone 14 Pro Max */
+   .text-container {
+      width      : 81%;
+      max-height : 72px; /* Set max-height here for all screen sizes */
+   }
+}
+
+@media (max-width : 780px) and (orientation : landscape) {
+   /* iPhone 14/13/12 */
+   .text-container {
+      width      : 81%;
+      max-height : 72px; /* Set max-height here for all screen sizes */
+   }
+}
+
+@media (max-width : 668px) and (orientation : landscape) {
+   /* iPhone SE */
+   .text-container {
+      width      : 81%;
+      max-height : 72px;
+   }
+
+   /* Phase Selection Container */
+   #phase-selection-container {
+      display        : flex;
+      flex-direction : column;
+      position       : fixed;
+      top            : 20%;
+      left           : 88% !important;
+      z-index        : 1;
+      /*transform      : translateY(-50%);*/
+      width          : auto;
+      opacity        : 1;
+      margin-right   : 11px !important;
+   }
+}
+
+/* Samsung Galaxy S23 Ultra */
+@media (max-width : 915px) and (orientation : landscape) {
+   .text-container {
+      width         : 82% !important;
+      max-height    : 71px !important;
+      margin-top    : 7px !important;
+      margin-bottom : -3px !important;
+   }
+}
+
+/* Samsung Galaxy S22 Ultra */
+@media (max-width : 914px) and (orientation : landscape) {
+   .text-container {
+      width         : 82% !important;
+      max-height    : 71px !important;
+      margin-top    : 7px !important;
+      margin-bottom : -3px !important;
+   }
+}
+
+/* Samsung Galaxy S21 Ultra */
+@media (max-width : 913px) and (orientation : landscape) {
+   .text-container {
+      width         : 82% !important;
+      max-height    : 71px !important;
+      margin-top    : 7px !important;
+      margin-bottom : -3px !important;
+   }
+}
+
+/* Samsung Galaxy Z Fold4 */
+@media (max-width : 799px) and (orientation : landscape) {
+   .text-container {
+      width         : 82% !important;
+      max-height    : 71px !important;
+      margin-top    : 7px !important;
+      margin-bottom : -3px !important;
+   }
+
+   /* Phase Selection Container */
+   #phase-selection-container {
+      display        : flex;
+      flex-direction : column;
+      position       : fixed;
+      top            : 20%;
+      left           : 88% !important;
+      z-index        : 1;
+      /*transform      : translateY(-50%);*/
+      width          : auto;
+      opacity        : 1;
+      margin-right   : 11px !important;
+   }
+}
+
+/* Samsung Galaxy Z Flip4 */
+@media (max-width : 673px) and (orientation : landscape) {
+   .text-container {
+      width         : 82% !important;
+      max-height    : 71px !important;
+      margin-top    : 7px !important;
+      margin-bottom : -3px !important;
+   }
+
+   /* Phase Selection Container */
+   #phase-selection-container {
+      display        : flex;
+      flex-direction : column;
+      position       : fixed;
+      top            : 20%;
+      left           : 85% !important;
+      z-index        : 1;
+      /*transform      : translateY(-50%);*/
+      width          : auto;
+      opacity        : 1;
+      margin-right   : 11px !important;
+   }
+}
+
+/*Portrait*/
+/* iPhone 12 Pro Max */
+@media (max-width : 500px) and (orientation : portrait) {
+   .text-container {
+      width      : 82% !important;
+      max-height : 456px !important;
+      margin-top : 36px !important;
+   }
+
+   /* Phase Selection Container */
+   #phase-selection-container {
+      display        : flex;
+      flex-direction : column;
+      position       : fixed;
+      top            : 9%;
+      left           : 78% !important;
+      z-index        : 1;
+      /*transform      : translateY(-50%);*/
+      width          : auto;
+      opacity        : 1;
+   }
+
+   .stacked-cards {
+      position       : absolute;
+      top            : 69% !important;
+      left           : 50%;
+      transform      : translate(-50%, -50%);
+      padding-top    : 0;
+      padding-bottom : 0;
+      margin-top     : 0;
+      margin-bottom  : 0;
+      min-height     : 100vh; /* Set a minimum height (adjust value as needed) */
+      min-width      : 100vw; /* Set a minimum width (adjust value as needed) */
+      box-sizing     : border-box;
+      z-index        : 1;
+   }
+/* Individual Slide Styles */
+.stacked-cards li {
+   display         : flex;
+   align-items     : center;
+   justify-content : center;
+   margin-top      : 0.5rem;
+   cursor          : pointer;
+   border-radius   : 0.6rem;
+   box-shadow      : 0 0.3rem 0.6rem 0px #333;
+   list-style      : none;
+   width           : 63% !important;
+   max-width       : 512px;
+   transition      : transform 0.5s ease, z-index 0.5s ease;
+   padding         : 1.2rem;
+   z-index         : 1;
+   /* Re-add the absolute positioning and transform properties */
+   position        : absolute;
+   left            : 50%;
+   transform       : translateX(-50%);
+}
+
+.stacked-cards li video {
+   display       : block;
+   width         : auto; /* Maintain aspect ratio */
+   height        : auto;
+   max-width     : 100%; /* Ensure video fits within the slide */
+   max-height    : 100%;
+   border-radius : 0.5rem;
+   max-height    : 22rem; /* Reduced by 50% */
+}
+   .header-title {
+      position      : absolute;
+      top           : 3%;
+      left          : 50%;
+      transform     : translateX(-50%);
+      color         : white;
+      font-family   : 'Bootle', sans-serif;
+      font-size     : 5vw;
+      text-align    : center;
+      margin-bottom : 0.5em;
+      padding-top   : 1.5em;
+      width         : 100%;
+   }
+}

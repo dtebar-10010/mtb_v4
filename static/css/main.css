@@ -1,0 +1,100 @@
+/* Font Import */
+@font-face {
+   font-family : 'Bootle';
+   src         : url('../fonts/Bootle-4B9l.ttf') format('truetype');
+   font-weight : normal;
+   font-style  : normal;
+}
+
+/* General Styles */
+*, *:before, *:after {
+   box-sizing : border-box;
+}
+
+html, body {
+   min-height          : 100vh;
+   color               : #444;
+   margin              : 0;
+   padding             : 0;
+   background-size     : cover;
+   background-position : center;
+   font-family         : 'Bootle', sans-serif;
+   height              : 100vh;
+   display             : flex;
+   flex-direction      : column;
+   justify-content     : flex-end;
+   font-size           : 14px;
+   overflow-y          : hidden;
+}
+
+p {
+   font-family : 'Arial', sans-serif;
+}
+
+/* Header Title Styles */
+.header-title {
+   position      : absolute;
+   top           : 0%;
+   left          : 50%;
+   transform     : translateX(-50%);
+   color         : white;
+   font-family   : 'Bootle', sans-serif;
+   font-size     : 5vw;
+   text-align    : center;
+   margin-bottom : 0.5em;
+   padding-top   : 0.25em;
+   width         : 100%;
+}
+
+.container-fixed {
+   max-width     : 400px; /* Reduced by 50% */
+   height        : auto;
+   margin        : 0 auto;
+   margin-top    : 0.555rem; /* Reduced by 50% */
+   margin-bottom : 0.5rem; /* Reduced by 50% */
+}
+
+a {
+   text-decoration : none;
+}
+
+a.btn.btn-primary {
+   text-decoration : none;
+}
+
+.btn-primary {
+   color            : white;
+   background-color : black;
+   border           : none;
+   padding          : 0;
+}
+
+.hide-initially {
+   display : none;
+}
+
+.show-initially {
+   display : block; /* or display: inline-block; for buttons */
+}
+
+footer {
+   width         : 100%; /* make sure the footer takes up the full width */
+   margin        : 0 auto; /* center the footer horizontally */
+   text-align    : center; /* center the text inside the footer */
+   font-size     : xx-small;
+   margin-bottom : 0.72em;
+      margin-top : 0.72em;
+}
+
+footer a {
+   color           : white !important;
+   text-decoration : none;
+}
+
+.hidden {
+   display : none;
+}
+
+.text-container.hidden {
+  display: none; /* Hide the element initially */
+}
