@@ -237,3 +237,242 @@
       width         : 100%;
    }
 }
+
+@media (max-width : 480px) and (orientation : landscape) {
+   .text-container {
+      width      : 82% !important;
+      max-height : 54px !important;
+      margin-top : 36px !important;
+      font-size: 9px !important;
+   }
+
+   /* Phase Selection Container */
+   #phase-selection-container {
+      display        : flex;
+      flex-direction : column;
+      position       : fixed;
+      top            : 21%;
+      left           : 80% !important;
+      z-index        : 1;
+      /*transform      : translateY(-50%);*/
+      width          : auto;
+      opacity        : 1;
+   }
+
+   .stacked-cards {
+      position       : absolute;
+      top            : 47% !important;
+      left           : 50%;
+      transform      : translate(-50%, -50%);
+      padding-top    : 0;
+      padding-bottom : 0;
+      margin-top     : 0;
+      margin-bottom  : 0;
+      min-height     : 72vh; /* Set a minimum height (adjust value as needed) */
+      min-width      : 100vw; /* Set a minimum width (adjust value as needed) */
+      box-sizing     : border-box;
+      z-index        : 1;
+   }
+/* Individual Slide Styles */
+.stacked-cards li {
+   display         : flex;
+   align-items     : center;
+   justify-content : center;
+   margin-top      : 0.5rem;
+   cursor          : pointer;
+   border-radius   : 0.6rem;
+   box-shadow      : 0 0.3rem 0.6rem 0px #333;
+   list-style      : none;
+   width           : 63% !important;
+   max-width       : 512px;
+   transition      : transform 0.5s ease, z-index 0.5s ease;
+   padding         : 1.2rem;
+   z-index         : 1;
+   /* Re-add the absolute positioning and transform properties */
+   position        : absolute;
+   left            : 50%;
+   transform       : translateX(-50%);
+}
+
+.stacked-cards li video {
+   display       : block;
+   width         : auto; /* Maintain aspect ratio */
+   height        : auto;
+   max-width     : 100%; /* Ensure video fits within the slide */
+   max-height    : 100%;
+   border-radius : 0.5rem;
+   max-height    : 22rem; /* Reduced by 50% */
+}
+   .header-title {
+      position      : absolute;
+      top           : 3%;
+      left          : 50%;
+      transform     : translateX(-50%);
+      color         : white;
+      font-family   : 'Bootle', sans-serif;
+      font-size     : 5vw;
+      text-align    : center;
+      margin-bottom : 0.5em;
+      padding-top   : 1.5em;
+      width         : 100%;
+   }
+}
+
+@media (max-width : 420px) and (orientation : portrait) {
+   .text-container {
+      width      : 82% !important;
+      max-height : 333px !important;
+      margin-top : 36px !important;
+   }
+
+   /* Phase Selection Container */
+   #phase-selection-container {
+      display        : flex;
+      flex-direction : column;
+      position       : fixed;
+      top            : 11%;
+      left           : 321px !important;
+      z-index        : 1;
+      /*transform      : translateY(-50%);*/
+      width          : auto;
+      opacity        : 1;
+   }
+
+   .stacked-cards {
+      position       : absolute;
+      top            : 69% !important;
+      left           : 50%;
+      transform      : translate(-50%, -50%);
+      padding-top    : 0;
+      padding-bottom : 0;
+      margin-top     : 0;
+      margin-bottom  : 0;
+      min-height     : 100vh; /* Set a minimum height (adjust value as needed) */
+      min-width      : 100vw; /* Set a minimum width (adjust value as needed) */
+      box-sizing     : border-box;
+      z-index        : 1;
+   }
+/* Individual Slide Styles */
+.stacked-cards li {
+   display         : flex;
+   align-items     : center;
+   justify-content : center;
+   margin-top      : 0.5rem;
+   cursor          : pointer;
+   border-radius   : 0.6rem;
+   box-shadow      : 0 0.3rem 0.6rem 0px #333;
+   list-style      : none;
+   width           : 63% !important;
+   max-width       : 512px;
+   transition      : transform 0.5s ease, z-index 0.5s ease;
+   padding         : 1.2rem;
+   z-index         : 1;
+   /* Re-add the absolute positioning and transform properties */
+   position        : absolute;
+   left            : 50%;
+   transform       : translateX(-50%);
+}
+
+.stacked-cards li video {
+   display       : block;
+   width         : auto; /* Maintain aspect ratio */
+   height        : auto;
+   max-width     : 100%; /* Ensure video fits within the slide */
+   max-height    : 100%;
+   border-radius : 0.5rem;
+   max-height    : 22rem; /* Reduced by 50% */
+}
+   .header-title {
+      position      : absolute;
+      top           : 3%;
+      left          : 50%;
+      transform     : translateX(-50%);
+      color         : white;
+      font-family   : 'Bootle', sans-serif;
+      font-size     : 5vw;
+      text-align    : center;
+      margin-bottom : 0.5em;
+      padding-top   : 1.5em;
+      width         : 100%;
+   }
+}
+
+
+@media (max-width : 320px) and (orientation : portrait) {
+   .text-container {
+      width      : 82% !important;
+      max-height : 171px !important;
+      margin-top : 36px !important;
+   }
+
+   /* Phase Selection Container */
+   #phase-selection-container {
+      display        : flex;
+      flex-direction : column;
+      position       : fixed;
+      top            : 15%;
+      left           : 236px !important;
+      z-index        : 1;
+      /*transform      : translateY(-50%);*/
+      width          : auto;
+      opacity        : 1;
+   }
+
+   .stacked-cards {
+      position       : absolute;
+      top            : 69% !important;
+      left           : 50%;
+      transform      : translate(-50%, -50%);
+      padding-top    : 0;
+      padding-bottom : 0;
+      margin-top     : 0;
+      margin-bottom  : 0;
+      min-height     : 100vh; /* Set a minimum height (adjust value as needed) */
+      min-width      : 100vw; /* Set a minimum width (adjust value as needed) */
+      box-sizing     : border-box;
+      z-index        : 1;
+   }
+/* Individual Slide Styles */
+.stacked-cards li {
+   display         : flex;
+   align-items     : center;
+   justify-content : center;
+   margin-top      : 0.5rem;
+   cursor          : pointer;
+   border-radius   : 0.6rem;
+   box-shadow      : 0 0.3rem 0.6rem 0px #333;
+   list-style      : none;
+   width           : 63% !important;
+   max-width       : 512px;
+   transition      : transform 0.5s ease, z-index 0.5s ease;
+   padding         : 1.2rem;
+   z-index         : 1;
+   /* Re-add the absolute positioning and transform properties */
+   position        : absolute;
+   left            : 50%;
+   transform       : translateX(-50%);
+}
+
+.stacked-cards li video {
+   display       : block;
+   width         : auto; /* Maintain aspect ratio */
+   height        : auto;
+   max-width     : 100%; /* Ensure video fits within the slide */
+   max-height    : 100%;
+   border-radius : 0.5rem;
+   max-height    : 22rem; /* Reduced by 50% */
+}
+   .header-title {
+      position      : absolute;
+      top           : 3%;
+      left          : 50%;
+      transform     : translateX(-50%);
+      color         : white;
+      font-family   : 'Bootle', sans-serif;
+      font-size     : 5vw;
+      text-align    : center;
+      margin-bottom : 0.5em;
+      padding-top   : 1.5em;
+      width         : 100%;
+   }
+}
