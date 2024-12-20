@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52c2873e-f011-482a-9863-950e10eeb3c7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/mediaQueries.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/css/mediaQueries.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/GitLink.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1056691e-60c4-44c1-a1bd-ee20bcc674b3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1056691e-60c4-44c1-a1bd-ee20bcc674b3.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +28,8 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -47,7 +48,9 @@
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2gbBuyGPDt8C945Q8YGMMx5baws" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
@@ -66,6 +69,8 @@
     "Python.t.executor": "Run",
     "Python.update_media_paths.executor": "Run",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "app.teamhub.selectedTeam": "github.com/dtebar-10010/mtb_v4",
     "django.template.preview.state": "SHOW_EDITOR",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "D:/current/code/mtb_v4_project",
